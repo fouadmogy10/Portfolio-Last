@@ -1,5 +1,5 @@
 import React from 'react';
-import { Pagination } from 'swiper';
+import { Autoplay, Pagination } from 'swiper';
 import img from "../../assets/certificate/HTML.PNG"
 import img2 from "../../assets/certificate/JS-ES6.PNG"
 import img3 from "../../assets/certificate/JS.PNG"
@@ -66,10 +66,16 @@ const Testimonials = () => {
       <h2>My Certificate</h2>
       <Swiper 
         className="container testimonials__container"
-        modules={[Pagination]}
         spaceBetween={40}
         slidesPerView={1}
+        loop={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: true,
+          reverseDirection: true,
+        }}
         pagination={{ clickable: true }}
+        modules={[Pagination,Autoplay]}
         >
         {testimonials.map((test) =>{ 
           return (
