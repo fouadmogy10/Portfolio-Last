@@ -1,11 +1,10 @@
 import React from "react";
-import IMG1 from "../../assets/redux.PNG";
-import IMG2 from "../../assets/res.PNG";
 import IMG3 from "../../assets/New.PNG";
 import IMG4 from "../../assets/tailwind-2.png";
 import IMG5 from "../../assets/R.PNG";
 import IMG6 from "../../assets/ecommerce.png";
 import IMG7 from "../../assets/tailwind1.png";
+import IMG8 from "../../assets/movie.png";
 
 import "./portfolio.css";
 
@@ -32,12 +31,12 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      title: "resturant-templete",
-      img: IMG2,
-      description: "User friendly app to plan your day and manage tasks",
-      technologies: "React | bootstrap ",
-      link: "https://restorant-ui.netlify.app",
-      github: "https://github.com/fouadmogy10/resturant-templete",
+      title: "Movie-TMDB",
+      img: IMG8,
+      description: "TMDB api movies using react, redux toolkit ",
+      technologies: "React | bootstrap | ReduxToolkit",
+      link: "https://movie-tmdb-pi.vercel.app",
+      github: "https://github.com/fouadmogy10/Movie-TMDB",
     },
     {
       id: 4,
@@ -62,7 +61,7 @@ const Portfolio = () => {
       title: "E-commerce app",
       img: IMG6,
       description:
-        "• I was responsible for building an e-commerce website using HTML, CSS, Java Script, React,reduxToolkit, bootstrap and Back-End With Nnde js , Express ,Mongodb . ",
+        "• I was responsible for building an e-commerce website using HTML, CSS, Java Script, React,reduxToolkit, bootstrap and Back-End With Node js , Express ,Mongodb . ",
       technologies: "React | bootstrap",
       link: "https://eco-front-mu.vercel.app/",
       github: "https://eco-front-mu.vercel.app/",
